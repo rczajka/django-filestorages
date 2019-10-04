@@ -55,7 +55,7 @@ FILE_STORAGES = {
 }
 ```
 
-In this example `get_storage('some.configured.storage')` returns `other.backend.Storage(option='value, second_option=True)`
+In this example `get_storage('some.configured.storage')` returns `other.backend.Storage(option='value', second_option=True)`
 
 If no matching backend is found, `FILE_STORAGES['default']` is used, falling back on 
 `DEFAULT_FILE_STORAGE` if not set.
